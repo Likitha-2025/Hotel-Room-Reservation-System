@@ -12,9 +12,7 @@ import {
 } from "./styles";
 
 
-/***********************\
- * Helpers & Data Model *
-\***********************/
+/* Helpers & Data Model */
 
 function buildHotelInventory() {
   const rooms = [];
@@ -81,9 +79,7 @@ function pickBestCombination(combos) {
   return best;
 }
 
-/*******************\
- * UI Components    *
-\*******************/
+/* UI Components    */
 
 function Legend() {
   return (
@@ -121,9 +117,7 @@ function FloorRow({ floor, rooms, occupancy, bookedSet, onToggleManualBlock }) {
   );
 }
 
-/*******************\
- * Main App         *
-\*******************/
+/* Main App         */
 
 export default function App() {
   const [requested, setRequested] = useState(4);
@@ -281,8 +275,5 @@ export default function App() {
   );
 }
 
-/***********************\
- * Render React App     *
-\***********************/
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);
