@@ -1,0 +1,6 @@
+Go to Git dev mode
+git clone https://github.com/Likitha-2025/Hotel-Room-Reservation-System.git
+cd Hotel-Room-Reservation-System
+cd hotel-app
+npm install
+npm start
